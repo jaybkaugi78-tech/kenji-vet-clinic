@@ -1,0 +1,3 @@
+import { services } from '../data/siteData';
+import { Link } from 'react-router-dom';
+export default function Services(){return <section className="section soft" id="services"><div className="heading"><span className="label">Our Services</span><h2>Veterinary support across a wide range of needs.</h2><p>Preventive care, diagnostics, farm visits, procedures and specialist animal support.</p></div><div className="card-grid">{services.map(({icon:Icon,title,description})=><article className="service" key={title}><span className="iconbox"><Icon/></span><h3>{title}</h3><p>{description}</p></article>)}</div><Link className="text-link section-link" to="/services">View all veterinary services</Link></section>}

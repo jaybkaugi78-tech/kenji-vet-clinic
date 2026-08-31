@@ -1,0 +1,2 @@
+import { testimonials } from '../data/siteData';
+export default function Testimonials(){return <section className="section soft"><div className="heading"><span className="label">Client Experiences</span><h2>Trusted by animal owners.</h2></div><div className="testimonials">{testimonials.map(t=><article key={t.name}><span className="rating">5.0 / 5</span><p>“{t.text}”</p><b>{t.name}</b><small>{t.role}</small></article>)}</div></section>}
