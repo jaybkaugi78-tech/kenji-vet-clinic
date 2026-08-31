@@ -1,1 +1,0 @@
-export default function Stats(){return <section className="stats"><div><b>500+</b><span>Animals cared for</span></div><div><b>8+</b><span>Years experience</span></div><div><b>24/7</b><span>Emergency support</span></div><div><b>Mixed</b><span>Veterinary practice</span></div></section>}
